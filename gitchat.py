@@ -2,7 +2,7 @@ import speech_recognition as sr
 import openai
 from gtts import gTTS
 from playsound import playsound
-anahtar=openai.api_key="Buraya API keyinizi giriniz"
+anahtar=openai.api_key="Buraya API anahtarınızı giriniz"
 def sesAl(sure=8):
     tanimlayici=sr.Recognizer()
     with sr.Microphone()as ses:
